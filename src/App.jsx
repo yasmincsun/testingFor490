@@ -6,10 +6,9 @@ import Login from "./components/loginPage/login"
 function App() {
   return (
 
-    <div className="app-container">
-      <h1>Main Page</h1>
+    
         <Login />
-    </div>
+
 
 
 

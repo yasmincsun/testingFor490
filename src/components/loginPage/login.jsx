@@ -12,21 +12,31 @@ const loginPage = () => {
                 <div className="underline"></div>
             </div>
             <div className="inputs">
-                <div className="input"> //Name
+                <div className="input">
                     <img src={userIcon} alt="" />
-                    <input type="text" />
+                    <input type="text" placeholder='Name' />
                 </div>
-                <div className="input"> // Email
+                <div className="input">
                     <img src={emailIcon} alt="" />
-                    <input type="email" />
+                    <input type="email" placeholder='Email'/>
                 </div>
-                <div className="input"> // Password
+                <div className="input"> 
                     <img src={passwordIcon} alt="" />
-                    <input type="password" />
+                    <input type="password" placeholder='Password'/>
                 </div>
             </div>
+            <div className="forgotPassword">Forgot Password? <span>Click Here!</span></div>
+
+            <div className="submit-container">
+                <div className="submit">Sign Up</div>
+                <div className="submit">Login</div>
+
+            </div>
+
+
+
         </div>
 
     )
 }
-export default App; 
+export default loginPage; 
