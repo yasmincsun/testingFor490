@@ -51,7 +51,65 @@
     margin: 0px 30px; 
 }
 
+.nameInput{ 
+    display: flex;
+    align-items: center;
+    margin: auto; 
+    width: 480px;
+    height: 80px; 
+    background: #fff;
+    border-radius: 6px;
+}
+.emailInput{ 
+    display: flex;
+    align-items: center;
+    margin: auto; 
+    width: 480px;
+    height: 80px; 
+    background: #fff;
+    border-radius: 6px;
+}
+.passwordInput{ 
+    display: flex;
+    align-items: center;
+    margin: auto; 
+    width: 480px;
+    height: 80px; 
+    background: #fff;
+    border-radius: 6px;
+}
+
 .input input{ 
+    height: 50px;
+    width: 400px; 
+    background: transparent;
+    border: none; 
+    outline: none;
+    color: #797979; 
+    font-size: 19px;
+}
+
+.nameInput input{ 
+    height: 50px;
+    width: 400px; 
+    background: transparent;
+    border: none; 
+    outline: none;
+    color: #797979; 
+    font-size: 19px;
+}
+
+.emailInput input{ 
+    height: 50px;
+    width: 400px; 
+    background: transparent;
+    border: none; 
+    outline: none;
+    color: #797979; 
+    font-size: 19px;
+}
+
+.passwordInput input{ 
     height: 50px;
     width: 400px; 
     background: transparent;
