@@ -2,7 +2,6 @@ import React from "react";
 import { QuizProvider } from "./context/quiz-context";
 import Quiz from "./components/quiz";
 import Login from "./components/loginPage/login"
-
 function App() {
   return (
 
